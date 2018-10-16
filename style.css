@@ -1,0 +1,80 @@
+html {
+    width: 100%;
+    height: 100%; 
+}
+
+body {
+    background-image: url(fabian-grohs-423591-unsplash.jpg);
+    background-size: cover;
+}
+
+header {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.text-uppercase {
+    color: rgb(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;;
+    font-size: 3rem;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'Karla', sans-serif;
+    color: rgb(255, 255, 255, 0.9);
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+    background-color: #CB7F63;
+    border-color: #CB7F63;
+  }
+
+.btn-xl:hover {
+    padding: 1rem 2rem;
+    background-color: #A55537;
+    border-color: #A55537;
+    cursor: pointer;
+}
+
+.btn-xl:active {
+  background-color: #A98C64 !important;
+  border-color: #A98C64 !important;
+  outline: none !important;
+  color: white;
+  box-shadow: 0 0 0 2pt white !important;
+}
+
+.btn-xl:focus {
+    background-color: #F4B59D !important;
+    border-color: #F4B59D !important;
+    outline: none !important;
+    color: white;
+    box-shadow: 0 0 0 2pt white !important;
+  }
+
+.btn-xl:target {
+    background-color: #CBB28F !important;
+    border-color: #CBB28F !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2pt gray !important;
+}
+
+hr {
+    max-width: 100px;
+    border-width: 3px;
+    border-color: #CB7F63;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
